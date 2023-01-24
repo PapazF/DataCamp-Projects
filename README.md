@@ -1,2 +1,2 @@
 # DataCamp-Projects
-Projects from DataCamp using PostgreSQL, MySQL
+Projects from DataCamp using MySQL, PostgreSQL
