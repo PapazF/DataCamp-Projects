@@ -66,8 +66,6 @@ WHERE year IN
 GROUP BY year
 ORDER BY total_games_sold DESC;
 
-
-
 -- The best year for video games was 2008	
 -- 175 games sold 
 -- 9.03 Average user score
