@@ -16,10 +16,9 @@ LIMIT 10;
 /* Find the top ten video games by average critic_score and count the number of games released in each year.
 Count has to be more then 4. Save the result of query as top_critic_years */
 CREATE VIEw top_critic_years  AS (
-SELECT 
-    year, 
-    ROUND(AVG(critic_score),2) AS avg_critic_score, 
-    COUNT(*) AS num_games
+SELECT year, 
+       ROUND(AVG(critic_score),2) AS avg_critic_score, 
+       COUNT(*) AS num_games
 FROM game_sales
 INNER JOIN reviews
 USING (game)
@@ -31,7 +30,7 @@ LIMIT 10);
 /* Find the top ten video games by average user_score and count the number of games released in each year.
 Count has to be more then 4. Save the result of query as top_user_years */
 CREATE VIEw top_user_years  AS (
-	SELECT 
+SELECT 
     year, 
     ROUND(AVG(user_score),2) as avg_user_score, 
     COUNT(*) AS num_games
@@ -53,8 +52,7 @@ FROM top_user_years
 
 /* As a result from previeus query, we know the best years for video games are '1998','2002','2008'.
 Now we can generate the total number of games for those years to find the best year */ 
-SELECT 
-	year, 
+SELECT  year, 
 	SUM(games_sold) AS total_games_sold
 FROM game_sales 
 WHERE year IN 
