@@ -1,3 +1,1 @@
-# DataCamp-Projects
-
-Projects from DataCamp using PostgreSQL
+This repository contains my Data Analyst projects from DataCamp using PostgreSQL
