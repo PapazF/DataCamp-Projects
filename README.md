@@ -8,5 +8,5 @@ Key Learnings:
 - Limit results using **LIMIT clause
 - **Subquery** in WHERE and FROM clause
 - Using **CASE** statement to categorized data 
-- Using **Window Functions** to generate **RANK()
-- Using **CTE 
+- Using **Window Functions** to generate **RANK()**
+- Using **CTE**
