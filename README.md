@@ -1,4 +1,4 @@
-This repository contains my Data Analytics projects from DataCamp using PostgreSQL
+#This repository contains my Data Analytics projects from DataCamp using PostgreSQL
 
 Key Learnings:
 - **Join** multiple tables
