@@ -1,6 +1,8 @@
-##This repository contains my Data Analytics projects from DataCamp using PostgreSQL
+This repository contains my Data Analytics projects from DataCamp using PostgreSQL
 
-###Key Learnings:
+#DataCamp
+
+Key Learnings:
 - **Join** multiple tables
 - Using aggregate functions such as **SUM(), AVG(), MIN(), MAX(), COUNT()**
 - Filter techniques such as **WHERE, GROUP BY and HAVING**
